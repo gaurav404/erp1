@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>forms</title>
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="form.css">
+</head>
+<body>
+<div class="container">	
+<form>
+	
+	<div class="form-group">
+    <label for="FirstName">First Name</label>
+    <input type="text" class="form-control" id="FirstName" placeholder="FirstName">
+  </div>
+  <div class="form-group">
+    <label for="MiddleName">Middle Name</label>
+    <input type="text" class="form-control" id="MiddleName" placeholder="MiddleName">
+  </div>
+  <div class="form-group">
+    <label for="LastName">Last Name</label>
+    <input type="text" class="form-control" id="LastName" placeholder="LastName">
+  </div>
+  <div class="form-group">
+    <label for="Bday">Date of Birth</label><br>
+    <input type="date" name="bday" max="1995-12-31">
+  </div>
+  <div class="form-group">
+    <label for="Scholar Id">Scholar Id</label>
+    <input type="text" class="form-control" id="Scholar Id" placeholder="Scholar Id">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+  <label for="Gender">Gender</label>
+  <div>
+  <label for="Male">Male:</label>
+		<input id="Male" type="radio" name="Male" value="Male">
+		<label for="Female">Female:</label>
+		<input id="Female" type="radio" name="Male" value="Female">
+		</div>
+	<label for="Caste">Caste</label>
+  <div>
+  <label for="Gen">Gen:</label>
+		<input id="Gen" type="radio" name="Gen" value="Gen">
+		<label for="Obc">Obc:</label>
+		<input id="Obc" type="radio" name="Obc" value="Obc">
+		<label for="sc">Sc:</label>
+		<input id="sc" type="radio" name="sc" value="sc">
+		<label for="st">St:</label>
+		<input id="st" type="radio" name="st" value="st">
+		</div>
+  <button type="submit" class="btn btn-default">Submit</button>
+</form>
+</div>
+</body>
+</html>

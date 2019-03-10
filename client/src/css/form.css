@@ -1,0 +1,15 @@
+body{
+	background-color: #E7E7E7;
+	background-size: cover;
+	background-position: center;
+	font-family: Lato;
+
+}
+form{
+	width:100%;
+	margin:20px auto;
+	padding:10px;
+}
+input{
+	color: black;
+}

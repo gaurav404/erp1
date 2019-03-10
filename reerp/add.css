@@ -1,0 +1,33 @@
+
+body{
+	background-color: #E7E7E7;
+	background-size: cover;
+	background-position: center;
+	font-family: Lato;
+	color: white;
+}
+#bs-example-navbar-collapse-1 a:hover {
+	background-color: #E7E7E7;
+	color: black;
+}
+h1{
+	font-weight: 700;
+	font-size: 5em;
+}
+html{
+	height: 100%;
+}
+hr{
+	width: 400px;
+	border-top:1px solid #f8f8f8;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+form{
+	width:50%;
+	margin:20px auto;
+	border: 2px solid white;
+	padding:10px;
+}
+input{
+	color: black;
+}

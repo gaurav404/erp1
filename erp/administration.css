@@ -1,0 +1,57 @@
+body{
+	background-color: #E7E7E7;
+	background-size: cover;
+	background-position: center;
+	font-family: Lato; 
+	color: white;
+}
+#bs-example-navbar-collapse-1 a:hover {
+	background-color: #E7E7E7;
+	color: black;
+}
+h1{
+	font-weight: 700;
+	font-size: 5em;
+}
+html{
+	height: 100%;
+}
+hr{
+	width: 400px;
+	border-top:1px solid #f8f8f8;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+.row{
+	padding-top: 50px;
+}
+.table{
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto; 
+}
+td{
+	text-align: center;
+}
+th{
+	text-align: center;
+}
+a{
+	color: black;
+}
+input{
+	color: black;
+	width: 70%;
+	border-radius: 5px;
+	margin-bottom: 5px;
+	padding-left: 8px;
+}
+button{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+th{
+	color: grey;
+}
+td{
+	color: grey;
+}
