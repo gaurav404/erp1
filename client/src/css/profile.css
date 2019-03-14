@@ -1,0 +1,10 @@
+.name{
+	padding-left: 20px;
+	border-left: 5px solid grey;
+}
+.image{
+	/*border-radius: 50%;*/
+	width: 12em;
+	margin: auto;
+
+}

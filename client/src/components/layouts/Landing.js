@@ -13,7 +13,6 @@ class Main extends Component {
     return(
       <div className="Main">
           <div className="container">
-            <h4 className="mb-4">Welcome</h4>
           </div>
       </div>
     )
