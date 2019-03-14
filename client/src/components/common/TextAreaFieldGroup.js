@@ -11,6 +11,7 @@ const TextAreaFieldGroup = ({
       name={name}
       value={value}
       onChange={onChange}
+      rows="3"
     />
     {error&&(<div className="invalid-feedback">{error}</div>)}
     {info&&(<small className="text-form text-muted"></small>)}

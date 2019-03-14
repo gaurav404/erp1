@@ -1,0 +1,16 @@
+.container1 {
+	margin: 50px auto;
+}
+.item{
+	display: inline-block;
+	height: 110px;
+	width: 46%;
+	color: white;
+	margin-left: 2%;
+	margin-right: 2%;
+	text-align: center;
+	padding-top: 30px;
+	margin-top: 10px;
+	border-radius: 10px;
+	font-size: 2em;
+}
