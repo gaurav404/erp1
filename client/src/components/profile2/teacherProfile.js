@@ -1,5 +1,9 @@
 import React,{Component} from 'react'
+<<<<<<< HEAD
 import download from '../../img/download.jpg'
+=======
+import download from '../../img/profile.png'
+>>>>>>> e7f00504f67812f90e479ca0b38ff84f4592493a
 
 class Teacherprofile extends Component {
   render(){

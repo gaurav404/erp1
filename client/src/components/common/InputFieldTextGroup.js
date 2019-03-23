@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 const InputFieldTextGroup = ({
+  label,
   type,
   value,
   placeholder,
@@ -12,6 +13,7 @@ const InputFieldTextGroup = ({
 })=>{
   return (
     <div className="form-group">
+      <label style={{paddingLeft: "15px"}}>{label}</label>
       <input
         type={type}
         className={"form-control form-control-lg"+(error?" is-invalid":"")}
@@ -29,6 +31,7 @@ const InputFieldTextGroup = ({
 }
 
 InputFieldTextGroup.propTypes={
+  label:PropTypes.string, 
   type:PropTypes.string.isRequired,
   value:PropTypes.string,
   placeholder:PropTypes.string,
