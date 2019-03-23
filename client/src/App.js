@@ -17,7 +17,7 @@ import Papers from './components/Lists/paper'
 import Journals from './components/Lists/Journals'
 import Seminars from './components/Lists/Seminars'
 import Academics from './components/Lists/Academics'
-import assistantship from './components/Lists/assistantship'
+import Assistantship from './components/Lists/assistantship'
 import ProfileModal from './components/Profile/profile2'
 import Studentprofile from './components/profile2/studentProfile'
 import Teacherprofile from './components/profile2/teacherProfile'
@@ -29,15 +29,10 @@ import Register from './components/auth/Register.js'
 import Login from './components/auth/Login.js'
 import Register2 from './components/auth/Register2.js'
 import Main from './components/layouts/Landing.js'
-<<<<<<< HEAD
-import Studentprofile from './components/profile2/studentProfile'
-import Teacherprofile from './components/profile2/teacherProfile'
 
-
-=======
 import MainT from './components/layouts/Teacher_landing.js'
 import MainS from './components/layouts/Student_landing.js'
->>>>>>> e7f00504f67812f90e479ca0b38ff84f4592493a
+
 
 import Navbar from './components/layouts/Navbar'
 import Footer from './components/layouts/Footer'
@@ -57,7 +52,7 @@ class App extends Component {
             <Route exact path='/showSeminars' component={Seminars}></Route>
             <Route exact path='/showJournals' component={Journals}></Route>
             <Route exact path='/showAcademics' component={Academics}></Route>
-            <Route exact path='/showAssistantship' component={assistantship}></Route>
+            <Route exact path='/showAssistantship' component={Assistantship}></Route>
             <Route exact path='/addTeacher' component={TeacherForm}></Route>
             <Route exact path='/addStudent' component={StudentForm}></Route>
             <Route exact path='/addJournal' component={JournalForm}></Route>
@@ -74,8 +69,6 @@ class App extends Component {
             <Route exact path='/register' component={Register}></Route>
             <Route exact path='/login' component={Login}></Route>
             <Route exact path='/register/:token' component={Register2}></Route>
-            <Route exact path='/student/profile' component={Studentprofile}></Route>
-            <Route exact path='/teacher/profile' component={Teacherprofile}></Route>
 
             <Footer/>
           </div>
