@@ -16,6 +16,8 @@ import Register from './components/auth/Register.js'
 import Login from './components/auth/Login.js'
 import Register2 from './components/auth/Register2.js'
 import Main from './components/layouts/Landing.js'
+import Studentprofile from './components/profile2/studentProfile'
+import Teacherprofile from './components/profile2/teacherProfile'
 
 
 
@@ -40,6 +42,8 @@ class App extends Component {
             <Route exact path='/register' component={Register}></Route>
             <Route exact path='/login' component={Login}></Route>
             <Route exact path='/register/:token' component={Register2}></Route>
+            <Route exact path='/student/profile' component={Studentprofile}></Route>
+            <Route exact path='/teacher/profile' component={Teacherprofile}></Route>
 
             <Footer/>
           </div>

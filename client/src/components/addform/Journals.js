@@ -51,8 +51,6 @@ class JournalForm extends Component {
                 <InputFieldTextGroup name="Topic" placeholder="enter topic" value={this.state.Topic} onChange={this.onChange} error={error.Topic} />
                 <InputFieldTextGroup name="publisherName" placeholder="enter publisher name" value={this.state.publisherName} onChange={this.onChange} error={error.publisherName} />
                 <InputFieldTextGroup type="date" name="date" placeholder="enter starting date" value={this.state.date} onChange={this.onChange} error={error.date} />
-
-
                 <button type="submit" className="btn btn-info btn-block">Submit</button>
               </form>
             </div>
